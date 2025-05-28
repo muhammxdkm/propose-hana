@@ -1,0 +1,46 @@
+.back-video{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+h2{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 400%;
+}
+
+h3{
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1%;
+    font-size: 300%; 
+}
+
+h4{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 300%; 
+}
+a:link{
+    text-decoration: none;
+}
